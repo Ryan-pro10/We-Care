@@ -1,0 +1,146 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  margin: 44px 0 140px 76px;
+}
+
+.link-header {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: rgba(152, 157, 156, 1);
+  cursor: pointer;
+  margin-right: 23px;
+}
+
+.link-header:hover {
+  opacity: .6;
+}
+
+.botao-header {
+  width: 130px;
+  height: 41px;
+  border-radius: 20.5px;
+  background-color: rgba(102, 90, 225, 1);
+  cursor: pointer;
+  border: none;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.botao-header:hover {
+  opacity: .8;
+}
+
+.botao-header:active {
+  opacity: .5;
+}
+
+.logo {
+  width: 568px;
+  height: 500px;
+  margin-left: 125px;
+  display: inline-block;
+}
+
+section {
+  display: inline-block;
+  margin-left: 86px;
+  margin-bottom: 100px;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 122px;
+  color: rgba(81, 81, 81, 1);
+}
+
+h2{
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 71px;
+  color: rgba(81, 81, 81, 1);
+}
+
+p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: rgba(132, 132, 132, 1);
+  width: 515px;
+  margin-top: 32px;
+  margin-bottom: 65px;
+}
+
+.botao-ex {
+  width: 239px;
+  height: 64px;
+  border-radius: 20.5px;
+  background-color:rgba(173, 255, 0, 1);
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  color: rgba(0, 0, 0, 1);
+  cursor: pointer;
+  border: none;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.botao-ex:hover {
+  opacity: .7;
+} 
+
+.botao-ex:active{
+  opacity: .5;
+} 
+
+@media screen and (max-width: 1000px) {
+  header {
+    display: none;
+  }
+
+  p{
+    display: none;
+  }
+
+  img {
+    height: auto;
+    width: 100%;
+    padding: 40px;
+    position: static;
+    margin: 68px 45px 0 10px;
+  }
+
+  h1 {
+    font-size: 69px;
+    line-height: 57px;
+    position: static;
+    text-align: center;
+    width: auto;
+    margin: 10px 0 0 6px;
+  }
+
+  h2 {
+    font-size: 46px;
+    line-height: 70px;
+    position: static;
+    text-align: center;
+    width: auto;
+    margin: 10px 0 40px 0;
+  }
+
+  .botao-ex {
+    position: static;
+    display: block;
+    margin: 0 auto;
+  }
+
+}
